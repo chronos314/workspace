@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.TimerTask;
 
 public class Main extends JPanel{
-    private int flyingIndex=0;//控制频率
+    private int flyingIndex=0;//控制频率的
     private int grade=0;
 
     public static BufferedImage hero0;
