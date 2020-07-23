@@ -1,7 +1,7 @@
 package com.zzxx.shoot;
 
 /*
-子弹类: 继承自 飞行物类
+子弹类: 继承自飞行物类
  */
 public class Bullet extends FlyingObject{
     private int speed;
