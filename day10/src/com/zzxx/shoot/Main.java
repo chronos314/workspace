@@ -10,7 +10,7 @@ import java.util.TimerTask;
 
 public class Main extends JPanel {
     public static BufferedImage hero0;
-    public static BufferedImage hero1;
+    public static BufferedImage hero1;//
     public static BufferedImage bee;
     public static BufferedImage bullet;
     public static BufferedImage airplane;
