@@ -10,6 +10,7 @@ public class DemoArrayVs {
         for (int i = 0; i <10000000 ; i++) {
             arrList.add(i+"");
             linkList.add(i+"");
+            //hh
         }
         long time1=System.currentTimeMillis();
         arrList.get(5000000);
