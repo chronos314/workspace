@@ -1,6 +1,6 @@
 package com.zzxx.thread;
 
-// 步骤1. 自定义的线程类, 继承 Thread
+// 步骤1. 自定义的线程类, 继承 Thread嗯嗯
 public class MyThread1 extends Thread {
     // 步骤2: 重写run方法, 线程要执行的任务
     public void run() {
