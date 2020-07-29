@@ -3,7 +3,6 @@ package com.zzxx.exception;
 // 自定义的已检查异常
 public class MyException extends Exception {
     // 只需要添加构造方法即可
-
     public MyException() {
     }
 

@@ -24,7 +24,8 @@ public class Demo05 {
         }
         // 第二种处理方式: 在方法声明上添加 throws 声明
         throw new ParseException("这是格式错了", 0);
-        // 运行时异常
+
+        // 运行时异常,可以不处理
 //        throw new NullPointerException("对象是null");
 //        throw new RuntimeException("这个运行时异常是你代码哪里写错了");
     }

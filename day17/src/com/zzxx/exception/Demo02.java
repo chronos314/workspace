@@ -11,7 +11,7 @@ public class Demo02 {
             System.out.println("m2方法正常结束");
         } catch (NullPointerException e){
             System.out.println("捕获到空指针了");
-//            e.printStackTrace();
+
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("捕获到数组越界了");
             // 将异常出现的栈路径, 打印出来
