@@ -11,7 +11,7 @@ public class MyThread1 extends Thread {
     public MyThread1(String name) {
         super(name);
     }
-
+    @Override
     public void run() {
         Thread t = Thread.currentThread();
         for (int i = 0; i < 10; i++) {

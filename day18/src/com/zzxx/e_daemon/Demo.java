@@ -36,7 +36,7 @@ public class Demo {
         Thread rose = new Thread(run1);
         Thread jack = new Thread(run2);
         // 默认所有线程都不是守护线程
-//        System.out.println("jack是不是守护线程: " + jack.isDaemon());
+        System.out.println("jack是不是守护线程: " + jack.isDaemon());
         // 设置守护线程
         jack.setDaemon(true);
 
